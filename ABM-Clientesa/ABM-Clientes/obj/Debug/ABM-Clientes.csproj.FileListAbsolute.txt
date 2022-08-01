@@ -1,0 +1,10 @@
+C:\Proyectos\Nancy\ABM-Clientes\Practica-ABM\ABM-Clientesa\ABM-Clientes\bin\Debug\ABM-Clientes.exe.config
+C:\Proyectos\Nancy\ABM-Clientes\Practica-ABM\ABM-Clientesa\ABM-Clientes\bin\Debug\ABM-Clientes.exe
+C:\Proyectos\Nancy\ABM-Clientes\Practica-ABM\ABM-Clientesa\ABM-Clientes\bin\Debug\ABM-Clientes.pdb
+C:\Proyectos\Nancy\ABM-Clientes\Practica-ABM\ABM-Clientesa\ABM-Clientes\obj\Debug\ABM-Clientes.csprojAssemblyReference.cache
+C:\Proyectos\Nancy\ABM-Clientes\Practica-ABM\ABM-Clientesa\ABM-Clientes\obj\Debug\ABM_Clientes.Form1.resources
+C:\Proyectos\Nancy\ABM-Clientes\Practica-ABM\ABM-Clientesa\ABM-Clientes\obj\Debug\ABM_Clientes.Properties.Resources.resources
+C:\Proyectos\Nancy\ABM-Clientes\Practica-ABM\ABM-Clientesa\ABM-Clientes\obj\Debug\ABM-Clientes.csproj.GenerateResource.cache
+C:\Proyectos\Nancy\ABM-Clientes\Practica-ABM\ABM-Clientesa\ABM-Clientes\obj\Debug\ABM-Clientes.csproj.CoreCompileInputs.cache
+C:\Proyectos\Nancy\ABM-Clientes\Practica-ABM\ABM-Clientesa\ABM-Clientes\obj\Debug\ABM-Clientes.exe
+C:\Proyectos\Nancy\ABM-Clientes\Practica-ABM\ABM-Clientesa\ABM-Clientes\obj\Debug\ABM-Clientes.pdb

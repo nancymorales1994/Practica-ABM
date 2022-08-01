@@ -16,5 +16,10 @@ namespace ABM_Clientes
         {
             InitializeComponent();
         }
+
+        private void buttonGuardar_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
