@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Data
 {
-    public class Class1
+    class conexion
     {
+
+        public void open() { 
+        
+        }
     }
+
 }
