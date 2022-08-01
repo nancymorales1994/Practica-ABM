@@ -2,3 +2,4 @@
 # Object files
 *.dll
 Data/obj/Debug
+.suo
