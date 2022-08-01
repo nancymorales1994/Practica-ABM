@@ -1,4 +1,4 @@
 
 # Object files
 *.dll
-**/obj/Debug
+Data/obj/Debug
