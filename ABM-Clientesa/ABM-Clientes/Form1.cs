@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Entities;
 
 namespace ABM_Clientes
 {
@@ -19,7 +20,9 @@ namespace ABM_Clientes
 
         private void buttonGuardar_Click(object sender, EventArgs e)
         {
-            
+            Clientes cliente = new Clientes();
+            cliente.Nombre = textBoxNombre.Text;
+
         }
     }
 }
