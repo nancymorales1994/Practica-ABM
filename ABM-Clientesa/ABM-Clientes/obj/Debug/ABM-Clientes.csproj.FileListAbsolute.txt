@@ -8,3 +8,16 @@ C:\Proyectos\Nancy\ABM-Clientes\Practica-ABM\ABM-Clientesa\ABM-Clientes\obj\Debu
 C:\Proyectos\Nancy\ABM-Clientes\Practica-ABM\ABM-Clientesa\ABM-Clientes\obj\Debug\ABM-Clientes.csproj.CoreCompileInputs.cache
 C:\Proyectos\Nancy\ABM-Clientes\Practica-ABM\ABM-Clientesa\ABM-Clientes\obj\Debug\ABM-Clientes.exe
 C:\Proyectos\Nancy\ABM-Clientes\Practica-ABM\ABM-Clientesa\ABM-Clientes\obj\Debug\ABM-Clientes.pdb
+C:\Users\Carolina\Desktop\Documents\GitHub\Practica-ABM\ABM-Clientesa\ABM-Clientes\bin\Debug\ABM-Clientes.exe.config
+C:\Users\Carolina\Desktop\Documents\GitHub\Practica-ABM\ABM-Clientesa\ABM-Clientes\bin\Debug\ABM-Clientes.exe
+C:\Users\Carolina\Desktop\Documents\GitHub\Practica-ABM\ABM-Clientesa\ABM-Clientes\bin\Debug\ABM-Clientes.pdb
+C:\Users\Carolina\Desktop\Documents\GitHub\Practica-ABM\ABM-Clientesa\ABM-Clientes\bin\Debug\Entities.dll
+C:\Users\Carolina\Desktop\Documents\GitHub\Practica-ABM\ABM-Clientesa\ABM-Clientes\bin\Debug\Entities.pdb
+C:\Users\Carolina\Desktop\Documents\GitHub\Practica-ABM\ABM-Clientesa\ABM-Clientes\obj\Debug\ABM-Clientes.csprojAssemblyReference.cache
+C:\Users\Carolina\Desktop\Documents\GitHub\Practica-ABM\ABM-Clientesa\ABM-Clientes\obj\Debug\ABM_Clientes.Properties.Resources.resources
+C:\Users\Carolina\Desktop\Documents\GitHub\Practica-ABM\ABM-Clientesa\ABM-Clientes\obj\Debug\ABM-Clientes.csproj.GenerateResource.cache
+C:\Users\Carolina\Desktop\Documents\GitHub\Practica-ABM\ABM-Clientesa\ABM-Clientes\obj\Debug\ABM-Clientes.csproj.CoreCompileInputs.cache
+C:\Users\Carolina\Desktop\Documents\GitHub\Practica-ABM\ABM-Clientesa\ABM-Clientes\obj\Debug\ABM-Clientes.csproj.CopyComplete
+C:\Users\Carolina\Desktop\Documents\GitHub\Practica-ABM\ABM-Clientesa\ABM-Clientes\obj\Debug\ABM-Clientes.exe
+C:\Users\Carolina\Desktop\Documents\GitHub\Practica-ABM\ABM-Clientesa\ABM-Clientes\obj\Debug\ABM-Clientes.pdb
+C:\Users\Carolina\Desktop\Documents\GitHub\Practica-ABM\ABM-Clientesa\ABM-Clientes\obj\Debug\ABM_Clientes.Front.resources
