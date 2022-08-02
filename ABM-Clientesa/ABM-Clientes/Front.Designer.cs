@@ -212,6 +212,7 @@ namespace ABM_Clientes
             this.listBoxClientes.Name = "listBoxClientes";
             this.listBoxClientes.Size = new System.Drawing.Size(447, 238);
             this.listBoxClientes.TabIndex = 21;
+            this.listBoxClientes.SelectedIndexChanged += new System.EventHandler(this.listBoxClientes_SelectedIndexChanged);
             // 
             // buttonEliminar
             // 
@@ -221,6 +222,7 @@ namespace ABM_Clientes
             this.buttonEliminar.TabIndex = 22;
             this.buttonEliminar.Text = "ELIMINAR";
             this.buttonEliminar.UseVisualStyleBackColor = true;
+            this.buttonEliminar.Click += new System.EventHandler(this.buttonEliminar_Click);
             // 
             // dateTimeFechaNacimiento
             // 

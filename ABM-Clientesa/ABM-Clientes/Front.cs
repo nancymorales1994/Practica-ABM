@@ -27,7 +27,7 @@ namespace ABM_Clientes
             textBoxDNI.Text = "";
             textBoxTelefono.Text = "";
         }
-
+        List<Clientes> listaClientes = new List<Clientes>();
         private void buttonGuardar_Click(object sender, EventArgs e)
         {
             Clientes cliente = new Clientes();
@@ -38,14 +38,19 @@ namespace ABM_Clientes
             cliente.DNI = textBoxDNI.Text;
             cliente.Telefono = textBoxTelefono.Text;
             //cliente.FechaNacimiento =
-
+           
             listBoxClientes.Items.Add(cliente);
+            listaClientes.Add(cliente);
 
             limpieza();
             
 
         }
-
+        private void buttonEliminar_Click(object sender, EventArgs e)
+        {
+            int indice = listBoxClientes.SelectedIndex;
+            listBoxClientes.Items.RemoveAt(indice);
+        }
         private void labelBuscarPorDNI_Click(object sender, EventArgs e)
         {
 
@@ -75,5 +80,12 @@ namespace ABM_Clientes
         {
 
         }
+
+        private void listBoxClientes_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        
     }
 }

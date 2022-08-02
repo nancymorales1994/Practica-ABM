@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Entities;
 
 namespace ABM_Clientes
 {
@@ -17,6 +18,10 @@ namespace ABM_Clientes
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Front());
+
+            //Clientes cliente = new Clientes();
+
+           
         }
     }
 }
