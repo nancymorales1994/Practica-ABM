@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Entities
 {
-    public class Clientes
+    public class Cliente
     {
         public string Nombre { get; set; }
         public string Apellido { get; set; }
@@ -22,11 +23,11 @@ namespace Entities
 
         }
 
-        public Clientes()
+        public Cliente()
         {
 
         }
-
+    
     }
 
 }

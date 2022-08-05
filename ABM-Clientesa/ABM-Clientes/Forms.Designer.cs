@@ -1,7 +1,7 @@
 ﻿
 namespace ABM_Clientes
 {
-    partial class Front
+    partial class Forms
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -50,119 +50,134 @@ namespace ABM_Clientes
             this.listBoxClientes = new System.Windows.Forms.ListBox();
             this.buttonEliminar = new System.Windows.Forms.Button();
             this.dateTimeFechaNacimiento = new System.Windows.Forms.DateTimePicker();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBoxNombre
             // 
-            this.textBoxNombre.Location = new System.Drawing.Point(140, 38);
+            this.textBoxNombre.Location = new System.Drawing.Point(187, 47);
+            this.textBoxNombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxNombre.Multiline = true;
             this.textBoxNombre.Name = "textBoxNombre";
-            this.textBoxNombre.Size = new System.Drawing.Size(250, 19);
+            this.textBoxNombre.Size = new System.Drawing.Size(332, 22);
             this.textBoxNombre.TabIndex = 0;
             this.textBoxNombre.TextChanged += new System.EventHandler(this.textBoxNombre_TextChanged);
             // 
             // textBoxApellido
             // 
-            this.textBoxApellido.Location = new System.Drawing.Point(140, 72);
+            this.textBoxApellido.Location = new System.Drawing.Point(187, 89);
+            this.textBoxApellido.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxApellido.Multiline = true;
             this.textBoxApellido.Name = "textBoxApellido";
-            this.textBoxApellido.Size = new System.Drawing.Size(250, 19);
+            this.textBoxApellido.Size = new System.Drawing.Size(332, 22);
             this.textBoxApellido.TabIndex = 1;
             // 
             // textBoxDireccion
             // 
-            this.textBoxDireccion.Location = new System.Drawing.Point(140, 106);
+            this.textBoxDireccion.Location = new System.Drawing.Point(187, 130);
+            this.textBoxDireccion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxDireccion.Multiline = true;
             this.textBoxDireccion.Name = "textBoxDireccion";
-            this.textBoxDireccion.Size = new System.Drawing.Size(250, 19);
+            this.textBoxDireccion.Size = new System.Drawing.Size(332, 22);
             this.textBoxDireccion.TabIndex = 2;
             // 
             // textBoxTelefono
             // 
-            this.textBoxTelefono.Location = new System.Drawing.Point(140, 139);
+            this.textBoxTelefono.Location = new System.Drawing.Point(187, 171);
+            this.textBoxTelefono.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxTelefono.Multiline = true;
             this.textBoxTelefono.Name = "textBoxTelefono";
-            this.textBoxTelefono.Size = new System.Drawing.Size(250, 19);
+            this.textBoxTelefono.Size = new System.Drawing.Size(332, 22);
             this.textBoxTelefono.TabIndex = 3;
             // 
             // textBoxCUIL
             // 
-            this.textBoxCUIL.Location = new System.Drawing.Point(140, 206);
+            this.textBoxCUIL.Location = new System.Drawing.Point(187, 254);
+            this.textBoxCUIL.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxCUIL.Multiline = true;
             this.textBoxCUIL.Name = "textBoxCUIL";
-            this.textBoxCUIL.Size = new System.Drawing.Size(250, 19);
+            this.textBoxCUIL.Size = new System.Drawing.Size(332, 22);
             this.textBoxCUIL.TabIndex = 4;
             // 
             // textBoxDNI
             // 
-            this.textBoxDNI.Location = new System.Drawing.Point(140, 173);
+            this.textBoxDNI.Location = new System.Drawing.Point(187, 213);
+            this.textBoxDNI.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxDNI.Multiline = true;
             this.textBoxDNI.Name = "textBoxDNI";
-            this.textBoxDNI.Size = new System.Drawing.Size(250, 19);
+            this.textBoxDNI.Size = new System.Drawing.Size(332, 22);
             this.textBoxDNI.TabIndex = 5;
             // 
             // labelNombre
             // 
-            this.labelNombre.Location = new System.Drawing.Point(13, 41);
+            this.labelNombre.Location = new System.Drawing.Point(17, 50);
+            this.labelNombre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelNombre.Name = "labelNombre";
-            this.labelNombre.Size = new System.Drawing.Size(108, 34);
+            this.labelNombre.Size = new System.Drawing.Size(144, 42);
             this.labelNombre.TabIndex = 7;
             this.labelNombre.Text = "Nombre Completo";
             // 
             // labelApellido
             // 
-            this.labelApellido.Location = new System.Drawing.Point(13, 75);
+            this.labelApellido.Location = new System.Drawing.Point(17, 92);
+            this.labelApellido.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelApellido.Name = "labelApellido";
-            this.labelApellido.Size = new System.Drawing.Size(108, 34);
+            this.labelApellido.Size = new System.Drawing.Size(144, 42);
             this.labelApellido.TabIndex = 8;
             this.labelApellido.Text = "Apellido";
             // 
             // labelDireccion
             // 
-            this.labelDireccion.Location = new System.Drawing.Point(13, 109);
+            this.labelDireccion.Location = new System.Drawing.Point(17, 134);
+            this.labelDireccion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelDireccion.Name = "labelDireccion";
-            this.labelDireccion.Size = new System.Drawing.Size(108, 34);
+            this.labelDireccion.Size = new System.Drawing.Size(144, 42);
             this.labelDireccion.TabIndex = 9;
             this.labelDireccion.Text = "Dirección";
             this.labelDireccion.Click += new System.EventHandler(this.labelDireccion_Click);
             // 
             // labelTelefono
             // 
-            this.labelTelefono.Location = new System.Drawing.Point(13, 142);
+            this.labelTelefono.Location = new System.Drawing.Point(17, 175);
+            this.labelTelefono.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelTelefono.Name = "labelTelefono";
-            this.labelTelefono.Size = new System.Drawing.Size(108, 34);
+            this.labelTelefono.Size = new System.Drawing.Size(144, 42);
             this.labelTelefono.TabIndex = 10;
             this.labelTelefono.Text = "Telefono";
             // 
             // labelDNI
             // 
-            this.labelDNI.Location = new System.Drawing.Point(13, 176);
+            this.labelDNI.Location = new System.Drawing.Point(17, 217);
+            this.labelDNI.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelDNI.Name = "labelDNI";
-            this.labelDNI.Size = new System.Drawing.Size(108, 34);
+            this.labelDNI.Size = new System.Drawing.Size(144, 42);
             this.labelDNI.TabIndex = 11;
             this.labelDNI.Text = "DNI";
             // 
             // labelFechaNacimiento
             // 
-            this.labelFechaNacimiento.Location = new System.Drawing.Point(13, 243);
+            this.labelFechaNacimiento.Location = new System.Drawing.Point(17, 299);
+            this.labelFechaNacimiento.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelFechaNacimiento.Name = "labelFechaNacimiento";
-            this.labelFechaNacimiento.Size = new System.Drawing.Size(108, 34);
+            this.labelFechaNacimiento.Size = new System.Drawing.Size(144, 42);
             this.labelFechaNacimiento.TabIndex = 12;
             this.labelFechaNacimiento.Text = "Fecha de Nacimiento";
             // 
             // labelCUIL
             // 
-            this.labelCUIL.Location = new System.Drawing.Point(13, 209);
+            this.labelCUIL.Location = new System.Drawing.Point(17, 257);
+            this.labelCUIL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelCUIL.Name = "labelCUIL";
-            this.labelCUIL.Size = new System.Drawing.Size(108, 34);
+            this.labelCUIL.Size = new System.Drawing.Size(144, 42);
             this.labelCUIL.TabIndex = 13;
             this.labelCUIL.Text = "CUIL";
             // 
             // buttonGuardar
             // 
-            this.buttonGuardar.Location = new System.Drawing.Point(125, 300);
+            this.buttonGuardar.Location = new System.Drawing.Point(167, 369);
+            this.buttonGuardar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonGuardar.Name = "buttonGuardar";
-            this.buttonGuardar.Size = new System.Drawing.Size(80, 34);
+            this.buttonGuardar.Size = new System.Drawing.Size(107, 42);
             this.buttonGuardar.TabIndex = 14;
             this.buttonGuardar.Text = "GUARDAR";
             this.buttonGuardar.UseVisualStyleBackColor = true;
@@ -170,9 +185,10 @@ namespace ABM_Clientes
             // 
             // buttonCancelar
             // 
-            this.buttonCancelar.Location = new System.Drawing.Point(211, 300);
+            this.buttonCancelar.Location = new System.Drawing.Point(281, 369);
+            this.buttonCancelar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonCancelar.Name = "buttonCancelar";
-            this.buttonCancelar.Size = new System.Drawing.Size(80, 34);
+            this.buttonCancelar.Size = new System.Drawing.Size(107, 42);
             this.buttonCancelar.TabIndex = 15;
             this.buttonCancelar.Text = "CANCELAR";
             this.buttonCancelar.UseVisualStyleBackColor = true;
@@ -180,45 +196,52 @@ namespace ABM_Clientes
             // 
             // textBoxBuscarPorDNI
             // 
-            this.textBoxBuscarPorDNI.Location = new System.Drawing.Point(643, 38);
+            this.textBoxBuscarPorDNI.Location = new System.Drawing.Point(857, 47);
+            this.textBoxBuscarPorDNI.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxBuscarPorDNI.Multiline = true;
             this.textBoxBuscarPorDNI.Name = "textBoxBuscarPorDNI";
-            this.textBoxBuscarPorDNI.Size = new System.Drawing.Size(250, 19);
+            this.textBoxBuscarPorDNI.Size = new System.Drawing.Size(332, 22);
             this.textBoxBuscarPorDNI.TabIndex = 17;
             this.textBoxBuscarPorDNI.TextChanged += new System.EventHandler(this.textBoxBuscarPorDNI_TextChanged);
             // 
             // labelBuscarPorDNI
             // 
-            this.labelBuscarPorDNI.Location = new System.Drawing.Point(540, 41);
+            this.labelBuscarPorDNI.Location = new System.Drawing.Point(720, 50);
+            this.labelBuscarPorDNI.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelBuscarPorDNI.Name = "labelBuscarPorDNI";
-            this.labelBuscarPorDNI.Size = new System.Drawing.Size(85, 34);
+            this.labelBuscarPorDNI.Size = new System.Drawing.Size(113, 42);
             this.labelBuscarPorDNI.TabIndex = 18;
             this.labelBuscarPorDNI.Text = "Buscar por DNI";
             this.labelBuscarPorDNI.Click += new System.EventHandler(this.labelBuscarPorDNI_Click);
             // 
             // buttonBuscar
             // 
-            this.buttonBuscar.Location = new System.Drawing.Point(910, 30);
+            this.buttonBuscar.Location = new System.Drawing.Point(1213, 37);
+            this.buttonBuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonBuscar.Name = "buttonBuscar";
-            this.buttonBuscar.Size = new System.Drawing.Size(80, 34);
+            this.buttonBuscar.Size = new System.Drawing.Size(107, 42);
             this.buttonBuscar.TabIndex = 19;
             this.buttonBuscar.Text = "BUSCAR";
             this.buttonBuscar.UseVisualStyleBackColor = true;
+            this.buttonBuscar.Click += new System.EventHandler(this.buttonBuscar_Click);
             // 
             // listBoxClientes
             // 
             this.listBoxClientes.FormattingEnabled = true;
-            this.listBoxClientes.Location = new System.Drawing.Point(543, 75);
+            this.listBoxClientes.ItemHeight = 16;
+            this.listBoxClientes.Location = new System.Drawing.Point(724, 92);
+            this.listBoxClientes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.listBoxClientes.Name = "listBoxClientes";
-            this.listBoxClientes.Size = new System.Drawing.Size(447, 238);
+            this.listBoxClientes.Size = new System.Drawing.Size(595, 292);
             this.listBoxClientes.TabIndex = 21;
             this.listBoxClientes.SelectedIndexChanged += new System.EventHandler(this.listBoxClientes_SelectedIndexChanged);
             // 
             // buttonEliminar
             // 
-            this.buttonEliminar.Location = new System.Drawing.Point(910, 331);
+            this.buttonEliminar.Location = new System.Drawing.Point(1213, 407);
+            this.buttonEliminar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonEliminar.Name = "buttonEliminar";
-            this.buttonEliminar.Size = new System.Drawing.Size(80, 34);
+            this.buttonEliminar.Size = new System.Drawing.Size(107, 42);
             this.buttonEliminar.TabIndex = 22;
             this.buttonEliminar.Text = "ELIMINAR";
             this.buttonEliminar.UseVisualStyleBackColor = true;
@@ -226,17 +249,30 @@ namespace ABM_Clientes
             // 
             // dateTimeFechaNacimiento
             // 
-            this.dateTimeFechaNacimiento.Location = new System.Drawing.Point(140, 237);
+            this.dateTimeFechaNacimiento.Location = new System.Drawing.Point(187, 292);
+            this.dateTimeFechaNacimiento.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dateTimeFechaNacimiento.Name = "dateTimeFechaNacimiento";
-            this.dateTimeFechaNacimiento.Size = new System.Drawing.Size(250, 20);
+            this.dateTimeFechaNacimiento.Size = new System.Drawing.Size(332, 22);
             this.dateTimeFechaNacimiento.TabIndex = 23;
             this.dateTimeFechaNacimiento.ValueChanged += new System.EventHandler(this.dateTimeFechaNacimiento_ValueChanged);
             // 
-            // Front
+            // button1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.button1.Location = new System.Drawing.Point(536, 503);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(100, 28);
+            this.button1.TabIndex = 24;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // Forms
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1004, 461);
+            this.ClientSize = new System.Drawing.Size(1339, 567);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.dateTimeFechaNacimiento);
             this.Controls.Add(this.buttonEliminar);
             this.Controls.Add(this.listBoxClientes);
@@ -258,7 +294,8 @@ namespace ABM_Clientes
             this.Controls.Add(this.textBoxDireccion);
             this.Controls.Add(this.textBoxApellido);
             this.Controls.Add(this.textBoxNombre);
-            this.Name = "Front";
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "Forms";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -288,6 +325,7 @@ namespace ABM_Clientes
         private System.Windows.Forms.ListBox listBoxClientes;
         private System.Windows.Forms.Button buttonEliminar;
         private System.Windows.Forms.DateTimePicker dateTimeFechaNacimiento;
+        private System.Windows.Forms.Button button1;
     }
 }
 

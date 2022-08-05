@@ -4,3 +4,9 @@ C:\Users\Carolina\Desktop\Documents\GitHub\Practica-ABM\ABM-Clientesa\Entities\o
 C:\Users\Carolina\Desktop\Documents\GitHub\Practica-ABM\ABM-Clientesa\Entities\obj\Debug\Entities.dll
 C:\Users\Carolina\Desktop\Documents\GitHub\Practica-ABM\ABM-Clientesa\Entities\obj\Debug\Entities.pdb
 C:\Users\Carolina\Desktop\Documents\GitHub\Practica-ABM\ABM-Clientesa\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+C:\Proyectos\Nancy\ABM-Clientes\Practica-ABM\ABM-Clientesa\Entities\bin\Debug\Entities.dll
+C:\Proyectos\Nancy\ABM-Clientes\Practica-ABM\ABM-Clientesa\Entities\bin\Debug\Entities.pdb
+C:\Proyectos\Nancy\ABM-Clientes\Practica-ABM\ABM-Clientesa\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+C:\Proyectos\Nancy\ABM-Clientes\Practica-ABM\ABM-Clientesa\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Proyectos\Nancy\ABM-Clientes\Practica-ABM\ABM-Clientesa\Entities\obj\Debug\Entities.dll
+C:\Proyectos\Nancy\ABM-Clientes\Practica-ABM\ABM-Clientesa\Entities\obj\Debug\Entities.pdb

@@ -17,9 +17,8 @@ namespace ABM_Clientes
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Front());
+            Application.Run(new Forms());
 
-            //Clientes cliente = new Clientes();
 
            
         }

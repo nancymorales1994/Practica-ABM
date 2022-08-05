@@ -8,12 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Entities;
+using Data;
 
 namespace ABM_Clientes
 {
-    public partial class Front : Form
+    public partial class Forms : Form
     {
-        public Front()
+        public Forms()
         {
             InitializeComponent();
         }
@@ -27,10 +28,10 @@ namespace ABM_Clientes
             textBoxDNI.Text = "";
             textBoxTelefono.Text = "";
         }
-        List<Clientes> listaClientes = new List<Clientes>();
+        List<Cliente> listaClientes = new List<Cliente>();
         private void buttonGuardar_Click(object sender, EventArgs e)
         {
-            Clientes cliente = new Clientes();
+            Cliente cliente = new Cliente();
             cliente.Nombre = textBoxNombre.Text;
             cliente.Apellido = textBoxApellido.Text;
             cliente.Cuil = textBoxCUIL.Text;
@@ -43,8 +44,6 @@ namespace ABM_Clientes
             listaClientes.Add(cliente);
 
             limpieza();
-            
-
         }
         private void buttonEliminar_Click(object sender, EventArgs e)
         {
@@ -83,9 +82,18 @@ namespace ABM_Clientes
 
         private void listBoxClientes_SelectedIndexChanged(object sender, EventArgs e)
         {
-
         }
 
-        
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void buttonBuscar_Click(object sender, EventArgs e)
+        {
+            Conexion con = new Conexion();
+            Cliente c = con.GetClientByDNI(textBoxBuscarPorDNI.Text);
+            
+        }
     }
 }
