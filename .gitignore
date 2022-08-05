@@ -1,5 +1,13 @@
 
 # Object files
 *.dll
+*.cache
 Data/obj/Debug
 .suo
+/ABM-Clientesa/Data/bin/Debug
+/ABM-Clientesa/Data/obj/Debug
+/ABM-Clientesa/Entities/bin/Debug
+/ABM-Clientesa/Entities/obj/Debug
+/ABM-Clientesa/ABM-Clientes/bin/Debug
+/ABM-Clientesa/ABM-Clientes/obj/Debug
+
